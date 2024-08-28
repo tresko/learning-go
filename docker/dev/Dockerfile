@@ -1,4 +1,4 @@
-FROM golang:1.15
+FROM golang:1.23
 
 RUN go get github.com/cespare/reflex
 COPY reflex.conf /
